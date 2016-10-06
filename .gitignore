@@ -1,0 +1,8 @@
+dist
+*.*
+!src/Main.hs
+!loginform.cabal
+!README.md
+!static/*.*
+!templates/*.*
+!.gitignore

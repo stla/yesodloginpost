@@ -1,0 +1,11 @@
+<div .login>
+  <form method="post" action="/app">
+    <h1>
+      Login
+    <input type="text" #username name="username" placeholder="Username" required="required">
+    <input type="password" #password name="password" placeholder="Password" required="required">
+    <button type="submit" .btn .btn-primary .btn-block .btn-large>
+      Let me in.
+    $maybe msg <- mmsg
+      <div>
+        <p .message>#{msg}
